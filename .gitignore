@@ -1,0 +1,26 @@
+# Publish only this gallery's application files and seven required portraits.
+# Other root files/folders (including backups) stay local.
+/*
+!/.gitignore
+!/index.html
+!/gallery.css
+!/gallery.js
+!/gallery-effects.js
+
+# Keep the directory structure used by gallery.js, but allow only its sources.
+!/photos/
+/photos/*
+!/photos/ASCII/
+/photos/ASCII/*
+!/photos/ASCII/ascii-art-3.txt
+!/photos/ASCII/ascii-ar-4t.txt
+!/photos/ASCII/ascii-art (3).txt
+!/photos/ASCII/ascii-art (4).txt
+!/photos/ASCII/ascii-art (5).txt
+!/photos/ASCII/ascii-art (6).txt
+!/photos/ASCII/ascii-art (7).txt
+
+# Never publish photographic source images or Finder metadata.
+*.[jJ][pP][gG]
+*.[jJ][pP][eE][gG]
+.DS_Store

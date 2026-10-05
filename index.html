@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Photographic portraits constructed from text, remaining still and never entirely still.">
+  <title>Still / Moving — Quiet ASCII Field</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="gallery.css">
+  <script src="gallery-effects.js" defer></script>
+  <script src="gallery.js" defer></script>
+</head>
+<body>
+  <!-- JavaScript creates one section and one text element per photograph. -->
+  <main id="gallery" aria-label="A scrolling gallery of photographic portraits made from ASCII characters"></main>
+  <div id="ambient-field" aria-hidden="true"></div>
+  <div id="cursor-layer" aria-hidden="true"></div>
+  <p id="load-status" class="visually-hidden" role="status"></p>
+  <noscript><p class="fallback">Enable JavaScript to view the text portraits.</p></noscript>
+</body>
+</html>
